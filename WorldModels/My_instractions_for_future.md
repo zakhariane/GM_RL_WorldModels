@@ -52,10 +52,17 @@ xvfb-run -- python3 05_train_controller.py car_racing -n 2 -t 2 -e 4 --max_lengt
 6) xvfb-run python 05_train_controller.py car_racing -n 4 -t 2 -e 3 --max_length 1000 --dream_mode 1
 
 
-сначала нарисую схему и раскрою каждую сущность в общих чертах. 
+-[установка анаконды](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)
 
-Потом начну рассказывать как происходит обучение. Сбор наддых на случаных прогонах. На поученных изоброжениях обучаетс автокодировщик, рассказать про его архетектуру. Потом на его предсказаниях собираются данные для обучения рекуррентной подмодели, потом она обучается, рассказать про ее архетектуру. Потом обучение контроллера. Рассказать про его архетектуру. Потом что то эволюционное, потом РЕЗУЛЬТАТЫ (кульминация). И потом переход к мнимому окружению.
- 
+-[виртуальное окружение](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04) не донастроил
+
+-[виртуальное окружение](https://medium.com/@aaditya.chhabra/virtualenv-with-virtualenvwrapper-on-ubuntu-34850ab9e765)
+
+-[open mpi](https://fnjn.io/2019/03/04/Install-OpenMPI-on-Ubuntu/)
+
+-[mpi4py](https://pypi.org/project/mpi4py/)
+
+-[Xvfb](https://linuxhint.com/install-xvfb-ubuntu/)
 
 
 
